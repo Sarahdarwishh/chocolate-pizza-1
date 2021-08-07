@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    width: 900px;
+    margin: auto;
+}
+header {
+    display: grid;
+    grid-template-columns: 50px auto auto;
+    align-items: center;
+    border-bottom: 10px solid;
+}
+header section:nth-child(2){
+    line-height: 0.1;
+}
+header section:nth-child(2) p {
+    font-size: small;
+    opacity: 0.6;
+    color: gray;
+}
+header section:nth-child(3){
+    text-align: right;
+}
+header section:nth-child(3) span:nth-child(2){
+    margin-left: 10px;
+}
+main section:nth-child(1){
+    line-height: 0.1;
+}
+main section:nth-child(1) p{
+    opacity: 0.5;
+    color: gray;
+}
+main section:nth-child(4){
+    display: grid;
+    grid-template-columns: auto auto;
+    background-image:url(../img/list-bg.png);
+    padding-left: 50px;
+}
+main section:nth-child(8){
+    border-top: 10px solid black;
+    border: 1px solid rgba(187, 187, 187, 0.637);
+    padding-top: 20px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 80px auto auto;
+    align-items: center;
+
+}
+main section:nth-child(8) div {
+    line-height: 0.1;
+}
+footer {
+    border-top: 0.5px solid gray ;
+    line-height: 0.1;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+button{
+    height: 50px;
+
+}
+footer img{
+    margin-top: -18px;
+}
+main section:nth-child(3) p{
+    white-space:inherit;
+}
+#H1{
+    font-family: cursive;
+    font-size: 28px;
+    
+}
